@@ -11,7 +11,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean div_by_3 = i % 3 == 0;
         boolean div_by_5 = i % 5 == 0;
         if (div_by_5 && div_by_3) {
